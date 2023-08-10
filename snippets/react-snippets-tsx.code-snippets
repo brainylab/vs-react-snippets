@@ -1,0 +1,42 @@
+{
+  "functionalComponentTsx": {
+    "prefix": "rfce",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export function ${1:$TM_FILENAME_BASE}(){",
+      "  return <div />;",
+      "}",
+    ],
+    "description": "Create React Functional Component"
+  },
+  "functionalComponentTsxWithInterface": {
+    "prefix": "rfcie",
+    "body": [
+      "import React from 'react';",
+      "",
+      "interface ${1}Props { }",
+      "",
+      "export function ${1:$TM_FILENAME_BASE}({}:${1}Props){",
+      "  return <div />;",
+      "}",
+    ],
+    "description": "Create React Functional Component With Interface"
+  },
+  "functionalComponentTsxWithInterfaceAndChildren": {
+    "prefix": "rfciec",
+    "body": [
+      "import React from 'react';",
+      "import type {ReactNode} from 'react';",
+      "",
+      "interface ${1}Props {",
+      " children: ReactNode;",
+      "}",
+      "",
+      "export function ${1:$TM_FILENAME_BASE}({children}:${1}Props){",
+      "  return <div>{children}</div>",
+      "}",
+    ],
+    "description": "Create React Functional Component With Interface And Children"
+  },
+}
