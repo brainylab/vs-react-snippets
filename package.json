@@ -3,7 +3,7 @@
   "displayName": "BrainyLab React Snippets",
   "description": "React snippets created by BrainyLab.",
   "publisher": "brainylab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "license": "MIT",
   "icon": "images/brainylab.png",
   "engines": {

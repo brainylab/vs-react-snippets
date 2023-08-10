@@ -36,21 +36,15 @@ Esta extensão tem por objetivo para ajudar no desenvolvimentos dos projetos na 
 <!-- - JavaScript React (.jsx) -->
 - TypeScript React (.tsx)
 
-<!-- ### Como Usar?
-
-Quando você instalar a Extensão o desenvolvimento em React Native será bem mais divertido.
-
-![Create React Native Component](https://raw.githubusercontent.com/Rocketseat/rocketseat-vscode-react-native-snippets/master/images/component.gif) -->
-
 ### Snippets
 
 Abaixo segue a lista com os Snippets disponíveis e os gatilhos para cada um. O **⇥** significa a tecla `TAB`.
 
 |                 Gatilho | Conteúdo                                                                      |
 | ----------------------: | ----------------------------------------------------------------------------- |
-|                `rnfce →` | Cria um Componente **Functional**   para React Native                                          |
-|           `rnfcie →` |Cria um Componente **Functional**   para React Native com **Types** do Typescript                      |
-|           `rnfciec →` |Cria um Componente **Functional**   para React Native com **Children** e **Types** do Typescript                     |
+|                `rfce →` | Cria um Componente **Functional**   para React                                          |
+|           `rfcie →` |Cria um Componente **Functional**   para React com **Types** do Typescript                      |
+|           `rfciec →` |Cria um Componente **Functional**   para React com **Children** e **Types** do Typescript                     |
 
 <!-- LICENSE -->
 
