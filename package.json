@@ -3,11 +3,11 @@
   "displayName": "BrainyLab React Snippets",
   "description": "React snippets created by BrainyLab.",
   "publisher": "brainylab",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "icon": "images/brainylab.png",
   "engines": {
-    "vscode": "^1.50.0"
+    "vscode": "^1.60.0"
   },
   "galleryBanner": {
     "color": "#08bcf2",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brainylab/vs-react-snippets" 
+    "url": "https://github.com/brainylab/vs-react-snippets"
   },
   "categories": [
     "Snippets"
@@ -29,6 +29,7 @@
     ]
   },
   "devDependencies": {
-    "@vscode/vsce": "^2.19.0"
-  }
+    "@vscode/vsce": "3.1.0"
+  },
+  "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
 }
