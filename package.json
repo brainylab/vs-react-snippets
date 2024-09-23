@@ -3,7 +3,7 @@
   "displayName": "BrainyLab React Snippets",
   "description": "React snippets created by BrainyLab.",
   "publisher": "brainylab",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "license": "MIT",
   "icon": "images/brainylab.png",
   "engines": {
@@ -22,6 +22,14 @@
   ],
   "contributes": {
     "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/react-snippets-js.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/react-snippets-js.code-snippets"
+      },
       {
         "language": "typescriptreact",
         "path": "./snippets/react-snippets-tsx.code-snippets"

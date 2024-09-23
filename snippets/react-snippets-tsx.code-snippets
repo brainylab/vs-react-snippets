@@ -4,7 +4,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "export function ${1:$TM_FILENAME_BASE}(){",
+      "export function ${TM_FILENAME_BASE/^([a-z])|[_-](\\w)/${1:/upcase}${2:/upcase}/g}(){",
       "  return <div />;",
       "}"
     ],
@@ -17,7 +17,7 @@
       "",
       "type ${1}Props = { }",
       "",
-      "export function ${1:$TM_FILENAME_BASE}({}:${1}Props){",
+      "export function ${1:${TM_FILENAME_BASE/^([a-z])|[_-](\\w)/${1:/upcase}${2:/upcase}/g}}({}:${1}Props){",
       "  return <div />;",
       "}"
     ],
@@ -33,7 +33,7 @@
       " children: ReactNode;",
       "}",
       "",
-      "export function ${1:$TM_FILENAME_BASE}({children}:${1}Props){",
+      "export function ${1:${TM_FILENAME_BASE/^([a-z])|[_-](\\w)/${1:/upcase}${2:/upcase}/g}}({children}:${1}Props){",
       "  return <div>{children}</div>",
       "}"
     ],
